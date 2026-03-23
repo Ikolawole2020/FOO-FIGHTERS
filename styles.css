@@ -15,7 +15,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #e0e0e0;
-    background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0f1423 100%);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e40af 100%);
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -108,7 +108,7 @@ nav {
 /* Hero Section - Parallax */
 .hero {
     height: 100vh;
-    background: url('background.jfif') no-repeat center center/cover fixed;
+    background: url('./hero.png') no-repeat center center/cover fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,8 +123,8 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(10, 10, 26, 0.7);
-    backdrop-filter: blur(2px);
+    background: rgba(14, 6, 9, 0.7);
+    /* backdrop-filter: blur(2px); */
 }
 
 .hero-content {
