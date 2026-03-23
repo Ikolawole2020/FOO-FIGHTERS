@@ -128,12 +128,12 @@ function handleCustomDonate() {
     donateDirect(finalAmount);
 }
 
-// Parallax effect for hero (on scroll)
+// Parallax effect removed for static stats
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const hero = document.querySelector('.hero');
     if (hero) {
-        hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+        hero.style.transform = `translateY(0px)`;
     }
 });
 
